@@ -1,0 +1,14 @@
+{
+  "name": "secure-task-management-dashboard",
+  "version": "1.0.0",
+  "description": "Full-Stack Task Management Dashboard with React, Tailwind CSS, Node.js/Express, and PostgreSQL",
+  "scripts": {
+    "start:backend": "node backend/src/server.js",
+    "dev:backend": "node --watch backend/src/server.js",
+    "dev:frontend": "npm run --prefix frontend dev",
+    "build:frontend": "npm run --prefix frontend build"
+  },
+  "keywords": ["react", "express", "postgresql", "tailwind", "crud", "dashboard"],
+  "author": "",
+  "license": "ISC"
+}
